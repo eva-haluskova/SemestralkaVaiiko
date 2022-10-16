@@ -7,15 +7,16 @@
 NAVBAR
  */
 
-.navbar-nav>li>a{
+body {
+    font-family: 'Libre Baskerville', serif;
+}
 
+.navbar-nav>li>a{
     text-transform: uppercase;
     font-size: 12px;
     margin-right:20px;
     color: #000;
 }
-
-
 
 .navbar-toggler {
     padding: .20rem .50rem;
@@ -23,23 +24,6 @@ NAVBAR
     line-height: 1;
     background-color: transparent;
     border: 1px solid white;
-
-}
-
-
-.nav-link{
-
-    color: #000 !important;
-}
-
-
-.wrapper{
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    background-color: #000;
-    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
-    transition: 1s all;
 }
 
 .navbar-brand{
@@ -49,23 +33,14 @@ NAVBAR
     font-size: 27px;
 }
 
-
-.navbar-bg:hover .wrapper{
-    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+.nav-link{
+    color: #000 !important;
 }
-
-
-.navbar-brand:hover{
-    color:#000;
-}
-
-
 
 .all-show{
 
     z-index: 10;
 }
-
 
 
 /*
@@ -103,7 +78,6 @@ SEARCH
     background: #ffdead;
 }
 
-
 /*
 RECIPES
  */
@@ -119,8 +93,9 @@ section{
     padding:30px 0;
 }
 h1{float:left; width:100%; color:#232323; margin-bottom:30px; font-size: 14px;}
-h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
+h1 h5 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
 h1 a{color:#131313; font-weight:bold;}
+
 
 .profile-card-5{
     margin-top:20px;
@@ -147,7 +122,7 @@ h1 a{color:#131313; font-weight:bold;}
     font-weight:600;
 }
 .profile-card-5 p{
-    font-size:14px;
+    font-size:16px;
     font-weight:300;
 }
 .profile-card-5 .btn-primary{
@@ -156,19 +131,17 @@ h1 a{color:#131313; font-weight:bold;}
 }
 
 
-
 /*my rules*/
 
-.nav {
-    position: fixed !important;
-    text-align: center;
-    top:0;
-    left:0;
-    width:100vw;
-    height:15vh;
-    z-index: 1000;
+.navbar-bg {
+    color: #ffdead;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
+h5 {
+    font-size: 18px;
+}
+
 
 .a-login {
     color: white;
@@ -190,11 +163,11 @@ h1 a{color:#131313; font-weight:bold;}
 
 .search-bar {
     padding-bottom: 1vh;
-    padding-top: 25vh;
+    padding-top: 1vh;
 }
 
 .img-logo {
-    width: 5vw;
+    width: 2vw;
     height: auto;
 }
 
@@ -203,38 +176,6 @@ h1 a{color:#131313; font-weight:bold;}
     height: auto;
 }
 
-@media only screen and (max-width: 780px) {
-    .img-footer {
-        width: 4vw;
-        height: auto;
-    }
-
-    .img-logo {
-        display: none;
-    }
-
-    .col-md-4 {
-        width: 100%;
-    }
+.button-bot {
+    background-color: white;
 }
-
-
-@media only screen and (max-width: 780px) {
-    .img-footer {
-        width: 4vw;
-        height: auto;
-    }
-
-    .img-logo {
-        display: none;
-    }
-
-    .col-md-4 {
-        width: 100%;
-    }
-
-    .mt-r {
-        width: 100%;
-    }
-}
-
