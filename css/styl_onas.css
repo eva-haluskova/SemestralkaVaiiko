@@ -1,52 +1,53 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-*:hover{
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-section{
-    float:left;
-    width:100%;
-    background: #fff;  /* fallback for old browsers */
-    padding:30px 0;
-}
-h1{float:left; width:100%; color:#232323; margin-bottom:30px; font-size: 14px;}
-h1 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px; font-weight:700}
-h1 a{color:#131313; font-weight:bold;}
 
-.profile-card-5{
-    margin-top:20px;
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #f5f6f7;
 }
-.profile-card-5 .btn{
-    border-radius:2px;
-    text-transform:uppercase;
-    font-size:12px;
-    padding:7px 20px;
+p {font-size: 16px;}
+.margin {
+    margin-bottom: 45px;
+    margin-top: 0px;
 }
-.profile-card-5 .card-img-block {
-    width: 91%;
-    margin: 0 auto;
-    position: relative;
-    top: -20px;
+.bg-1 {
+    background-color: #ffdead;
+    color: #000000;
 
 }
-.profile-card-5 .card-img-block img:hover{
-    border-radius:5px;
-    box-shadow:0 0 10px rgba(0,0,0,0.63);
+.bg-2 {
+    background-color: #B5EAD7;
+    color: #000000;
 }
-.profile-card-5 h5{
-    color:#4E5E30;
-    font-weight:600;
+.bg-3 {
+    background-color: pink;
+    color: #000000;
 }
-.profile-card-5 p{
-    font-size:14px;
-    font-weight:300;
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #fff;
 }
-.profile-card-5 .btn-primary{
-    background-color:#4E5E30;
-    border-color:#4E5E30;
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 3vw;
+}
+
+/*
+my rules
+ */
+
+.container-2 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+.content {
+    float: left;
+    width: 50vw;
+}
+img {
+    border: 2px solid black;
 }

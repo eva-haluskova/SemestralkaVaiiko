@@ -50,7 +50,7 @@ NAVBAR
 }
 
 
-.navbar-red:hover .wrapper{
+.navbar-bg:hover .wrapper{
     clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
 }
 
@@ -59,10 +59,7 @@ NAVBAR
     color:#000;
 }
 
-.navbar-red{
-    background-color: #ffdead;
-    color: #000;
-}
+
 
 .all-show{
 
@@ -74,13 +71,6 @@ NAVBAR
 /*
 SEARCH
  */
-
-
-.height{
-    height: 50vh;
-}
-
-
 .search{
     position: relative;
     box-shadow: 0 0 40px rgba(51, 51, 51, .1);
@@ -117,11 +107,6 @@ SEARCH
 /*
 RECIPES
  */
-/*
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-*/
 
 *:hover{
     -webkit-transition: all 0.5s ease;
@@ -194,4 +179,16 @@ h1 a{color:#131313; font-weight:bold;}
     color:#ffdead;
 }
 
+.a-content:hover {
+    color: #4E5E30;
+}
 
+.navbar-bg{
+    background-color: #ffdead;
+    color: #000;
+}
+
+.search-bar {
+    padding-bottom: 1vh;
+    padding-top: 25vh;
+}
