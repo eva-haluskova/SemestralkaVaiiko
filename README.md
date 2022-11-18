@@ -1,1 +1,1 @@
-# SemestralkaVaiiko
+# SemestralkaVaiikoPrvyCheckpoint
